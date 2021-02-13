@@ -103,12 +103,12 @@
 			</feature>
 		</config-file>
 
-		<config-file target="*/Entitlements-Debug.plist" parent="aps-environment">
+		<!--<config-file target="*/Entitlements-Debug.plist" parent="aps-environment">
 			<string>development</string>
 		</config-file>
 		<config-file target="*/Entitlements-Release.plist" parent="aps-environment">
 			<string>production</string>
-		</config-file>
+		</config-file>-->
 
 
 		<config-file target="*-Info.plist" parent="UIBackgroundModes">
@@ -143,7 +143,7 @@
 				<pod name="Firebase/InAppMessaging" spec="6.33.0"/>
 				<pod name="FirebaseFirestore" git="https://github.com/invertase/firestore-ios-sdk-frameworks.git" tag="6.33.0"/>
 				<pod name="Firebase/Crashlytics" spec="6.33.0"/>
-				<pod name="GoogleSignIn" spec="5.0.2"/>
+				<!--<pod name="GoogleSignIn" spec="5.0.2"/>-->
 				<pod name="GoogleTagManager" spec="7.1.4"/>
 			</pods>
 		</podspec>
